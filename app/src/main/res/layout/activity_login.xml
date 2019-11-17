@@ -9,6 +9,19 @@
     android:layout_margin="10dp"
     tools:context=".LoginActivity">
 
+
+    <TextView
+        android:id="@+id/tvBrandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="cursive"
+        android:text="Instaparse"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
@@ -34,9 +47,22 @@
 
     <Button
         android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        />
+        android:layout_marginTop="40dp"
+        android:text="Don't have an account yet?"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
 
 </LinearLayout>
